@@ -1,0 +1,136 @@
+{
+  "global" : {
+    "title" : "Demo",
+    "browsehappy" : "Sie verwenden einen <strong> veralteten </strong>-Browser. Bitte < a href = \"http://browsehappy.com/? locale = de\" > Aktualisieren Sie Ihren Browser </a>, um Ihre Erfahrung zu verbessern.",
+    "menu" : {
+      "home" : "Startseite",
+      "jhipster-needle-menu-add-element" : "JHipster wird hier zusätzliche Menüeinträge hinzufügen (nicht übersetzen!)",
+      "entities" : {
+        "main" : "Entitäten",
+        "jhipster-needle-menu-add-entry" : "JHipster wird hier zusätzliche Entitäten hinzufügen (nicht übersetzen!)"
+      },
+      "account" : {
+        "main" : "Konto",
+        "settings" : "Einstellungen",
+        "password" : "Kennwort",
+        "sessions" : "Sitzungen",
+        "login" : "Anmelden",
+        "logout" : "Abmelden",
+        "register" : "Registrieren"
+      },
+      "admin" : {
+        "main" : "Verwaltung",
+        "userManagement" : "User Management",
+        "tracker" : "User Tracker",
+        "metrics" : "Metriken",
+        "health" : "Gesundheit",
+        "configuration" : "Konfiguration",
+        "logs" : "Protokolle",
+        "audits" : "Audits",
+        "apidocs" : "Api",
+        "database" : "Datenbank",
+        "jhipster-needle-menu-add-admin-element" : "JHipster wird hier zusätzliche Menüeinträge hinzufügen (nicht übersetzen!)"
+      },
+      "language" : "Sprache"
+    },
+    "form" : {
+      "username" : "Benutzernamen",
+      "username.placeholder" : "Ihrem Benutzernamen",
+      "currentpassword" : "Aktuelles Passwort",
+      "currentpassword.placeholder" : "Aktuelles Passwort",
+      "newpassword" : "Neues Passwort",
+      "newpassword.placeholder" : "Neues Passwort",
+      "confirmpassword" : "Neue Passwort-Bestätigung",
+      "confirmpassword.placeholder" : "Das neue Passwort bestätigen",
+      "email" : "E-Mail",
+      "email.placeholder" : "Ihre e-Mail"
+    },
+    "messages" : {
+      "info" : {
+        "authenticated" : {
+          "prefix" : "Wer will ",
+          "link" : "Anmelden",
+          "suffix" : ", können Sie die Standard-Accounts ausprobieren: <br/>-Administrator (Login = \"admin\" und Passwort = \"admin\") <br/>-User (Login = \"Benutzer\" und Passwort = \"Benutzer\")."
+        },
+        "register" : {
+          "noaccount" : "Sie haben noch kein Konto?",
+          "link" : "Ein neues Konto anmelden"
+        }
+      },
+      "error" : {
+        "dontmatch" : "Das Passwort und die Bestätigung stimmen nicht überein!"
+      },
+      "validate" : {
+        "newpassword" : {
+          "required" : "Ihr Passwort ist erforderlich.",
+          "minlength" : "Ihr Passwort muss mindestens 4 Zeichen betragen.",
+          "maxlength" : "Ihr Passwort kann nicht länger als 50 Zeichen sein.",
+          "strength" : "PassWortstärke:"
+        },
+        "confirmpassword" : {
+          "required" : "Ihr Bestätigungs Passwort ist erforderlich.",
+          "minlength" : "Ihr Bestätigungs-Passwort muss mindestens 4 Zeichen betragen.",
+          "maxlength" : "Ihr Bestätigungs Passwort kann nicht länger als 50 Zeichen sein."
+        },
+        "email" : {
+          "required" : "Ihre e-Mail ist erforderlich.",
+          "invalid" : "Ihre e-Mail ist ungültig.",
+          "minlength" : "Ihre e-Mail muss mindestens 5 Zeichen betragen.",
+          "maxlength" : "Ihre e-Mail kann nicht länger als 50 Zeichen sein."
+        }
+      }
+    },
+    "field" : {
+      "id" : "Id"
+    },
+    "ribbon" : {
+      "dev" : "Entwicklung"
+    },
+    "item-count" : "Zeigt {{First}}-{{Second}} von {{Total}}."
+  },
+  "entity" : {
+    "action" : {
+      "addblob" : "Add BLOB",
+      "addimage" : "Add Image",
+      "back" : "Zurück",
+      "cancel" : "Abbrechen",
+      "delete" : "Löschen",
+      "edit" : "Bearbeiten",
+      "open" : "Öffnen",
+      "save" : "Speichern",
+      "view" : "Anzeigen"
+    },
+    "detail" : {
+      "field" : "Feld",
+      "value" : "Wert"
+    },
+    "delete" : {
+      "title" : "Löschvorgang bestätigen"
+    },
+    "validation" : {
+      "required" : "Dieses Feld ist erforderlich.",
+      "minlength" : "Dieses Feld wird benötigt, um mindestens {{min}} Zeichen zu sein.",
+      "maxlength" : "Dieses Feld kann nicht länger als {{Max}} Zeichen sein.",
+      "min" : "Dieses Feld sollte mindestens {{min}} sein.",
+      "max" : "Dieses Feld kann nicht mehr als {{Max}} sein.",
+      "minbytes" : "Dieses Feld sollte mindestens {{min}} Bytes betragen.",
+      "maxbytes" : "Dieses Feld kann nicht mehr als {{Max}} Bytes sein.",
+      "pattern" : "Dieses Feld sollte Muster für {{pattern}} folgen.",
+      "number" : "Dieses Feld sollte eine Zahl sein.",
+      "datetimelocal" : "Dieses Feld sollte ein Datum und eine Uhrzeit sein.",
+      "patternLogin" : "Dieses Feld kann nur Buchstaben, Ziffern und e-Mail-Adressen enthalten."
+    }
+  },
+  "error" : {
+    "internalServerError" : "Interner Server Fehler",
+    "server.not.reachable" : "Server nicht erreichbar",
+    "url.not.found" : "Nicht gefunden",
+    "NotNull" : "Feld {{fieldName}} kann nicht leer sein!",
+    "Size" : "Feld {{fieldName}} erfüllt nicht die Anforderungen an die Min/Max-Größe!",
+    "userexists" : "Login-Name bereits verwendet!",
+    "emailexists" : "E-Mail ist bereits in Gebrauch!",
+    "idexists" : "EIN neuer {{entityName}} kann nicht schon eine ID haben",
+    "idnull" : "Ungültige ID"
+  },
+  "footer" : "Das ist Ihre Fußzeile"
+}

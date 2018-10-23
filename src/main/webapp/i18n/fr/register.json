@@ -1,0 +1,24 @@
+{
+  "register" : {
+    "title" : "Enregistrement",
+    "form" : {
+      "button" : "Registre"
+    },
+    "messages" : {
+      "validate" : {
+        "login" : {
+          "required" : "Votre nom d'utilisateur est requis.",
+          "minlength" : "Votre nom d'utilisateur doit être d'au moins 1 caractère.",
+          "maxlength" : "Votre nom d'utilisateur ne peut pas être plus long que 50 caractères.",
+          "pattern" : "Votre nom d'utilisateur ne peut contenir que des lettres et des chiffres."
+        }
+      },
+      "success" : "Enregistrement <strong> enregistré! </strong> Veuillez vérifier votre email pour confirmation.",
+      "error" : {
+        "fail" : "<strong> enregistrement a échoué! </strong> Veuillez réessayer plus tard.",
+        "userexists" : "nom de connexion <strong> déjà enregistré! </strong> S'il vous plaît choisir un autre.",
+        "emailexists" : "<strong> E-mail est déjà en cours d'utilisation! </strong> S'il vous plaît choisir un autre."
+      }
+    }
+  }
+}

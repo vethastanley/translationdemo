@@ -1,0 +1,27 @@
+{
+  "audits" : {
+    "title" : "??",
+    "filter" : {
+      "title" : "?????",
+      "from" : "?",
+      "to" : "?",
+      "button" : {
+        "weeks" : "??",
+        "today" : "??",
+        "clear" : "??",
+        "close" : "??"
+      }
+    },
+    "table" : {
+      "header" : {
+        "principal" : "??",
+        "date" : "??",
+        "status" : "??",
+        "data" : "????"
+      },
+      "data" : {
+        "remoteAddress" : "????:"
+      }
+    }
+  }
+}

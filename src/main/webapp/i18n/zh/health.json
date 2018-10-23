@@ -1,0 +1,28 @@
+{
+  "health" : {
+    "title" : "????",
+    "refresh.button" : "??",
+    "stacktrace" : "????",
+    "details" : {
+      "details" : "??",
+      "properties" : "??",
+      "name" : "??",
+      "value" : "??",
+      "error" : "??"
+    },
+    "indicator" : {
+      "diskSpace" : "????",
+      "mail" : "????",
+      "db" : "???"
+    },
+    "table" : {
+      "service" : "????",
+      "status" : "??"
+    },
+    "status" : {
+      "UNKNOWN" : "??",
+      "UP" : "?",
+      "DOWN" : "??"
+    }
+  }
+}

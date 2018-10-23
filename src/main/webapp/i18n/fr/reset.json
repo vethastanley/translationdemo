@@ -1,0 +1,27 @@
+{
+  "reset" : {
+    "request" : {
+      "title" : "Réinitialiser votre mot de passe",
+      "form" : {
+        "button" : "Réinitialiser le mot de passe"
+      },
+      "messages" : {
+        "info" : "Saisissez l'adresse e-mail que vous avez utilisée pour vous inscrire",
+        "success" : "Vérifiez vos e-mails pour plus de détails sur la façon de réinitialiser votre mot de passe.",
+        "notfound" : "<strong> email address n'est pas enregistré! </strong> S'il vous plaît vérifier et essayer à nouveau"
+      }
+    },
+    "finish" : {
+      "title" : "Réinitialiser le mot de passe",
+      "form" : {
+        "button" : "Valider le nouveau mot de passe"
+      },
+      "messages" : {
+        "info" : "Choisissez un nouveau mot de passe",
+        "success" : "<strong> votre mot de passe a été réinitialisé. </strong> S' il vous plaît ",
+        "keymissing" : "La touche RESET est manquante.",
+        "error" : "Votre mot de passe ne peut pas être réinitialisé. Rappelez-vous une demande de mot de passe n'est valable que pour 24 heures."
+      }
+    }
+  }
+}
