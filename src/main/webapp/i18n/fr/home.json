@@ -1,0 +1,19 @@
+{
+  "home" : {
+    "title" : "Bienvenue, Java hipster!",
+    "subtitle" : "Ceci est votre page d'accueil",
+    "logged" : {
+      "message" : "Vous êtes connecté en tant qu'utilisateur \"{{username}}\"."
+    },
+    "question" : "Si vous avez n'importe quelle question sur JHipster:",
+    "link" : {
+      "homepage" : "JHipster page d'accueil",
+      "stackoverflow" : "JHipster sur déBordement de pile",
+      "bugtracker" : "JHipster bug tracker",
+      "chat" : "JHipster public chat room",
+      "follow" : "Suivez @java_hipster sur Twitter"
+    },
+    "like" : "Si vous aimez JHipster, n'oubliez pas de nous donner une étoile sur",
+    "github" : "Github"
+  }
+}

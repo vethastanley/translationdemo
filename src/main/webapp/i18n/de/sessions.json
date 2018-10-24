@@ -1,0 +1,15 @@
+{
+  "sessions" : {
+    "title" : "Aktive Sessions für [<b> {{username}} </b>]",
+    "table" : {
+      "ipaddress" : "IP-Adresse",
+      "useragent" : "User Agent",
+      "date" : "Datum",
+      "button" : "Ungültig"
+    },
+    "messages" : {
+      "success" : "<strong> Session invalidiert! </strong>",
+      "error" : "<strong> ist ein Fehler aufgetreten! </strong> Die Sitzung konnte nicht außer Kraft gesetzt werden."
+    }
+  }
+}
